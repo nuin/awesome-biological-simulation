@@ -35,12 +35,13 @@ def anchor(title):
 
 
 def paper_link(ref):
-    ref = (ref or "").strip()
-    if re.fullmatch(r"\d{6,9}", ref):
-        return f"https://pubmed.ncbi.nlm.nih.gov/{ref}/"
-    if ref.startswith("10."):
-        return f"https://doi.org/{ref}"
-    return None
+    """The first DOI in the field, else the first PubMed ID; parentheses are escaped for Markdown."""
+    ref = ref or ""
+    doi = re.search(r"10\.\d{4,9}/\S+", ref)
+    if doi:
+        return "https://doi.org/" + doi.group(0).rstrip(".;,").replace("(", "%28").replace(")", "%29")
+    pmid = re.search(r"\b\d{6,9}\b", ref)
+    return f"https://pubmed.ncbi.nlm.nih.gov/{pmid.group(0)}/" if pmid else None
 
 
 def entry(t):
