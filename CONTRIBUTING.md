@@ -8,6 +8,8 @@ python3 scripts/build_readme.py
 
 Commit both files in the same pull request.
 
+The guides in `guides/` are copied from [biosimhub](https://biosimhub.pages.dev) with `python3 scripts/import_guides.py <path to biosimhub>`. Corrections to a guide are welcome as issues; they are applied upstream and copied back.
+
 ## What belongs here
 
 - Software that simulates a biological system: molecules, cells, tissues, organs, organisms, populations, epidemics or ecosystems.

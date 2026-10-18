@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-GUIDES = "https://biosimhub.pages.dev/guide/"
+GUIDES = "guides/"
 
 # Section order and titles, with one sentence on what each section covers.
 SECTIONS = [
@@ -64,7 +64,7 @@ def entry(t):
     if paper:
         meta.append(f"[paper]({paper})")
     if t.get("guide"):
-        meta.append(f"[guide]({GUIDES}{t['guide']})")
+        meta.append(f"[guide]({GUIDES}{t['guide']}.md)")
     return f"- {head} - {desc}" + (" " + " · ".join(meta) + "." if meta else "")
 
 
@@ -85,8 +85,8 @@ def main():
         "",
         f"{len(data)} simulators in {len(SECTIONS)} fields. Each entry gives what the tool simulates, its language, "
         "licence, GitHub stars, maintenance status and, where known, the paper to cite. "
-        f"{guides} entries link to a written guide on [biosimhub](https://biosimhub.pages.dev), "
-        "most of them with a container recipe whose example has been run.",
+        f"{guides} entries link to a written guide in [guides/](guides/README.md), from "
+        "[biosimhub](https://biosimhub.pages.dev); most include a container recipe whose example has been run.",
         "",
         "Status: entries are maintained unless marked *dormant* (no activity for a year or more), "
         "*abandoned* (stated as unmaintained, or no activity for several years), *archived* (read-only repository) "

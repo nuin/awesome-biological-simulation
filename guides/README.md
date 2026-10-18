@@ -1,0 +1,225 @@
+# Guides
+
+Written guides for 221 simulators, from [biosimhub](https://biosimhub.pages.dev). Most include a container recipe whose example has been run, with its expected output.
+
+- [AgentPy](agentpy.md) - Run an agent-based SIR epidemic on a small-world contact network and write the infection time series and a summary.
+- [Agents.jl](agents-jl.md) - Run a Schelling segregation agent-based model on a grid in Julia and write the happiness and same-group share per step plus the final grid.
+- [ALIEN](alien.md) - A GPU particle engine for artificial life, where cells with small neural networks form creatures that mutate, compete and evolve.
+- [AliSim (IQ-TREE 2)](alisim.md) - Simulate DNA alignments along a tree under the HKY model with gamma rate variation and insertions and deletions, using the AliSim module of IQ-TREE.
+- [AlphaSimR](alphasimr.md) - Simulate a breeding program as repeated selection and crossing of a founder population with a quantitative trait, and record genetic gain per generation.
+- [AMICI](amici.md) - Compile an SBML ODE model to C++ with CVODES and simulate it, optionally with forward parameter sensitivities.
+- [APSIM Next Generation](apsim-next-generation.md) - Farming-systems simulator for crops, soils, pastures and livestock, run from a desktop editor or the command line, under a free-for-research licence that does not allow redistribution.
+- [AquaCrop](aquacrop.md) - Water-driven crop growth and yield for a season, from daily climate, soil, crop and management files, run through a project (PRM) file.
+- [AquaCrop-OSPy](aquacrop-ospy.md) - Simulate crop growth, soil water balance and yield for one crop, soil and daily weather record with the FAO AquaCrop water-productivity model in Python.
+- [Arbor](arbor.md) - Simulate a multi-compartment Hodgkin-Huxley neuron with Arbor's single-cell model, driven by a current clamp, and save its voltage trace and spike times.
+- [Artistoo](artistoo.md) - Cellular Potts model of cells and tissues: cell sorting by differential adhesion, or a single migrating cell (Act model).
+- [ArtiSynth](artisynth.md) - Java toolkit for combined rigid-body, finite-element and muscle simulation of anatomy, with an interactive 3D editor.
+- [Auryn](auryn.md) - Event-driven C++ simulator for recurrent spiking neural networks with synaptic plasticity such as STDP.
+- [AutoDock CrankPep (ADCP)](adcp.md) - Dock a flexible peptide of up to about 20 residues, or a cyclic peptide, into a rigid receptor by folding it in the receptor's affinity-grid field with Monte Carlo search.
+- [AutoDock Vina](vina.md) - Dock a small-molecule ligand into a rigid receptor inside a search box and return ranked binding poses with scores.
+- [AutoDock4](autodock4.md) - Dock a ligand into a rigid receptor with AutoGrid 4 energy maps and the AutoDock 4 Lamarckian genetic algorithm, returning clustered poses with estimated binding energies.
+- [Avida](avida.md) - Evolve a population of self-replicating digital organisms that earn CPU time by computing logic functions, and write per-100-update population, fitness and task statistics.
+- [Badread](badread.md) - Simulate imperfect Oxford Nanopore or PacBio long reads from a reference, with realistic errors, chimeras, junk and random reads, glitches and adapters.
+- [BAMSurgeon](bamsurgeon.md) - Spike synthetic SNVs into a BAM file to make a tumor-like sample with known variants for benchmarking somatic variant callers.
+- [BBTools randomreads.sh](bbtools-randomreads.md) - Simulate paired Illumina-style or PacBio-style reads from a reference with planted SNPs and indels, using randomreads.sh from the BBTools suite.
+- [BindsNET](bindsnet.md) - A small spiking network in PyTorch, with Poisson inputs driving leaky integrate-and-fire neurons, and recorded spikes and voltage.
+- [Bio++ bppseqgen](bppseqgen.md) - Simulate DNA sequence alignments along a phylogenetic tree under an HKY85 substitution model with gamma rate variation.
+- [bioCRNpyler](biocrnpyler.md) - Compile a gene-expression circuit (constitutive gene or a repressor pair) into a chemical reaction network, export it as SBML, and integrate its mass-action time course.
+- [BioDynaMo](biodynamo.md) - A C++ platform for 3D agent-based simulation of cells and tissues, with a command-line project tool and ParaView output.
+- [BioGears](biogears.md) - Whole-body human physiology engine; runs an XML scenario of patient insults and treatments and returns vital-sign time series.
+- [BioNetGen](bionetgen.md) - Generate the reaction network of a rule-based model written in BNGL, then simulate it with the actions in the file (ODE, SSA, or network-free NFsim).
+- [bioptim](bioptim.md) - Solve an optimal control problem for a musculoskeletal-style model, here a torque-driven pendulum swing-up, and return the optimal trajectory and torques.
+- [biorbd](biorbd.md) - Forward dynamics of a musculoskeletal rigid-body model described in a bioMod file, driven by constant muscle activations.
+- [biosim4](biosim4.md) - Evolve a population of neural-network agents on a 2D grid under a chosen selection challenge and log survivors, diversity and genome length per generation.
+- [Boquila](boquila.md) - Select reads from a pool of candidate reads so that their nucleotide (k-mer) composition matches a model read set, to serve as bias-matched controls.
+- [BPP simulator](bpp.md) - Simulate gene trees and DNA alignments at many loci under the multispecies coalescent from a species tree with divergence times and population sizes.
+- [Brain Modeling Toolkit (BMTK)](bmtk.md) - Run the 120-neuron point-neuron cortex model from the BMTK examples on NEST, with a thalamic spike-train input and an optional current clamp.
+- [BrainPy](brainpy.md) - Simulate spiking brain-dynamics models compiled with JAX; the example is a small excitatory-inhibitory network of leaky integrate-and-fire neurons.
+- [Brian 2](brian2.md) - Simulate spiking neurons written as differential equations (leaky integrate-and-fire with a threshold and reset) and record spike times and a voltage trace.
+- [Brian2CUDA](brian2cuda.md) - GPU backend for the Brian 2 spiking network simulator that generates C++/CUDA code for NVIDIA graphics cards.
+- [Brian2GeNN](brian2genn.md) - A Brian 2 device that generates and runs GeNN code, so spiking-network models written in Python run on NVIDIA GPUs.
+- [Bygul](bygul.md) - Simulate tiled-amplicon sequencing reads from two sample genomes mixed at chosen proportions, given a reference and a primer BED scheme.
+- [c302](c302.md) - Generate a NeuroML 2 network of C. elegans neurons and muscle from connectome data, run it with jNeuroML and save the membrane potential traces.
+- [CALVADOS](calvados.md) - Residue-level coarse-grained simulation of one intrinsically disordered protein in OpenMM, with radius of gyration and end-to-end distance from the trajectory.
+- [CAMISIM](camisim.md) - Simulate microbial communities with abundance profiles, time series and strain diversity, and produce metagenome reads plus gold standards for assembly, binning and profiling.
+- [Cardioid](cardioid.md) - Parallel cardiac electrophysiology on a 3D grid of cells, from single-cell models up to whole-heart runs on supercomputers.
+- [CARLsim 6](carlsim6.md) - C++ library for large-scale spiking neural networks of Izhikevich neurons with synaptic plasticity, running on CPUs or NVIDIA GPUs.
+- [Catalyst.jl](catalyst-jl.md) - Simulate a mass-action reaction network (Michaelis-Menten enzyme kinetics) as a deterministic ODE or an exact stochastic Gillespie process.
+- [CellModeller](cellmodeller.md) - Agent-based simulation of growing and dividing bacterial colonies, with rod-shaped cell mechanics, gene regulation and cell-cell signalling, run through OpenCL.
+- [Chaste](chaste.md) - Grow a monolayer of proliferating cells on a Voronoi mesh with spring forces, and record cell number and colony radius every simulated hour.
+- [CNApy](cnapy.md) - Desktop application for constraint-based modelling of metabolic networks, with FBA, FVA, elementary flux modes, strain design and interactive flux maps.
+- [COBRA Toolbox](cobra-toolbox.md) - MATLAB suite for constraint-based modelling of genome-scale metabolic networks, with flux balance analysis, variability analysis and sampling.
+- [COBRApy](cobrapy.md) - Flux balance analysis and flux variability analysis of a genome-scale metabolic model given as SBML.
+- [Colvars](colvars.md) - Collective-variable biasing inside LAMMPS; the example runs well-tempered metadynamics on an argon pair distance and writes the free-energy profile.
+- [CompuCell3D](compucell3d.md) - Run a cellular Potts (Glazier-Graner-Hogeweg) tissue model written as a CompuCell3D Python script, without the Player GUI.
+- [COPASI](copasi.md) - Deterministic (LSODA, RADAU5) and stochastic (Gillespie, Gibson-Bruck, tau-leap) time courses of SBML biochemical models.
+- [Covasim](covasim.md) - Agent-based SARS-CoV-2 epidemic in a synthetic population of households, schools, workplaces and community, with optional testing and contact tracing.
+- [covid19-model simulator](covid19-model.md) - Simulate a stochastic, site-based epidemic with household transmission, testing and smart contact tracing on a bundled Swiss or German region.
+- [CP2K](cp2k.md) - Run a Gaussian and plane waves DFT calculation (single-point energy or geometry optimisation) on a small molecule in a box and report the total energy.
+- [CPlantBox](cplantbox.md) - Grow a three-dimensional root system from a species parameter set and write its geometry, growth curve and per-order statistics.
+- [CycSim](cycsim.md) - Simulate context-aware long reads from a reference genome using a trained CycSim error model.
+- [Cytosim](cytosim.md) - 2D Brownian-dynamics simulation of flexible cytoskeletal filaments with molecular motors and crosslinkers, from a .cym config file.
+- [DeePMD-kit](deepmd-kit.md) - Train a small deep neural network potential (se_e2_a) on labelled water frames and test its energy and force errors on held-out frames.
+- [DendroPy](dendropy.md) - Simulate a birth-death or coalescent tree, then evolve a DNA alignment on it under the HKY model, with DendroPy's Python simulation routines.
+- [DFTB+](dftbplus.md) - Semiempirical density-functional tight-binding and xTB calculations (energies, geometry optimisation, MD) from an HSD input file.
+- [discoal](discoal.md) - Simulate coalescent samples with recombination and selective sweeps (hard, soft or neutral), writing ms-format haplotypes.
+- [DSSAT-CSM](dssat-csm.md) - Simulate one maize crop season (growth, soil water, nitrogen, yield) for a Gainesville, Florida nitrogen and irrigation experiment with the DSSAT cropping system model.
+- [DWGSIM](dwgsim.md) - Simulate paired-end Illumina-like reads from a reference genome, with SNPs, indels, and sequencing errors.
+- [DynaSim](dynasim.md) - MATLAB and GNU Octave toolbox that builds, simulates and explores ODE-based neural models and networks from text equations.
+- [dyngen](dyngen.md) - Simulate single-cell RNA-seq data from gene regulatory network dynamics along a chosen cell trajectory (linear, bifurcating, cycle and others).
+- [ED2 (Ecosystem Demography)](ed2.md) - Run the Ecosystem Demography model on a 4-patch temperate forest stand at 44.5 N with synthetic weather, and get monthly carbon fluxes, leaf area and biomass.
+- [Emergent / Leabra](emergent-leabra.md) - Build and run biologically based neural network models of cognition in Go, using the Leabra algorithm and a Cogent Core graphical interface.
+- [EMOD](emod.md) - A stochastic agent-based model of malaria and HIV transmission, run through the emodpy Python packages.
+- [EoN (Epidemics on Networks)](eon.md) - Stochastic SIR or SIS epidemic on a random contact network, repeated over several runs, with the mean S/I/R curves and final sizes.
+- [EpiModel](epimodel.md) - Simulate an SIR epidemic as a deterministic compartmental model, a stochastic individual-contact model, or a network model with partnership dynamics.
+- [epydemix](epydemix.md) - Stochastic SIR or SEIR epidemic simulation in a well-mixed population, repeated over many runs with 5/50/95 percent bands per compartment.
+- [ESPResSo](espresso.md) - Molecular dynamics of Kremer-Grest bead-spring polymers in a periodic box, with a Langevin thermostat, reporting chain size and temperature.
+- [FATES](fates.md) - A cohort-based vegetation demography model (trees by size and plant functional type) that runs as a component inside the CTSM, CESM or E3SM land models.
+- [Faunus](faunus.md) - Metropolis Monte Carlo simulation of atomic and molecular systems (electrolytes, proteins, polymers) from a JSON input file.
+- [FEBio](febio.md) - Compress a block of elastic material with nonlinear implicit finite elements and return nodal displacements and axial stress per element.
+- [Folding@home](folding-at-home.md) - A volunteer distributed-computing project that runs molecular dynamics of protein folding and dynamics on donated computers, through a client that fetches work from project servers.
+- [FRED](fred.md) - An agent-based epidemic simulator over census-based synthetic populations of households, schools and workplaces, free for non-commercial research only.
+- [fwdpy11](fwdpy11.md) - Forward-time neutral Wright-Fisher simulation with recombination and an optional population size change; returns a sampled VCF, the site frequency spectrum and diversity statistics.
+- [gargammel](gargammel.md) - Simulate ancient DNA sequencing reads (short fragments with deamination damage and Illumina errors) from a reference FASTA.
+- [GeNN](genn.md) - Generate GPU (CUDA or HIP) code for large spiking neural network simulations, from C++ or the PyGeNN Python interface.
+- [GillesPy2](gillespy2.md) - Simulate a mass-action biochemical reaction network with stochastic (SSA, tau-leaping) or deterministic (ODE) solvers.
+- [gnina](gnina.md) - Molecular docking with AutoDock Vina-style search and convolutional neural network scoring of ligand poses, built for NVIDIA GPUs.
+- [GOMC](gomc.md) - Monte Carlo simulation of fluids in the Gibbs ensemble, for phase equilibria and densities of coexisting phases.
+- [Goo](goo.md) - Grow and divide 3D deformable cells with cloth physics in headless Blender, and log cell count, volume, shape and spread per minute.
+- [gro](gro.md) - Simulator for growing bacterial micro-colonies in two dimensions, with a language for programming gene circuits, cell signalling and cell-cell communication.
+- [GROMACS](gromacs.md) - Classical molecular dynamics of proteins, lipids and nucleic acids; upload a prepared run input (.tpr) and mdrun simulates it.
+- [HADDOCK3](haddock3.md) - Information-driven docking of biomolecular complexes as a configurable workflow of rigid-body, flexible and refinement modules.
+- [HNN-core](hnn-core.md) - Simulate a biophysical neocortical column in NEURON and read out the MEG/EEG current dipole, spikes and drive-evoked responses.
+- [HOOMD-blue](hoomd-blue.md) - Molecular dynamics of a Lennard-Jones fluid in reduced units, returning a GSD trajectory, a thermodynamic log and the radial distribution function.
+- [iBioSim](ibiosim.md) - Desktop CAD tool for modelling, simulating and designing genetic circuits, with ODE, stochastic and hybrid analysis of SBML models and SBOL support.
+- [InSilicoSeq](insilicoseq.md) - Simulate Illumina metagenomic reads from a multi-FASTA of genomes using built-in error models and an abundance distribution.
+- [ipcoal](ipcoal.md) - Simulate gene genealogies and SNPs along a species tree under the multispecies coalescent with recombination and mutation.
+- [JAX MD](jax-md.md) - Differentiable molecular dynamics in JAX, run as a fixed Lennard-Jones fluid simulation (NVT Langevin or NVE) with a thermodynamic log and trajectory.
+- [Jaxley](jaxley.md) - Simulate a Hodgkin-Huxley neuron in JAX on the CPU with a step current and write the membrane-potential trace.
+- [JumpProcesses.jl](jumpprocesses.md) - Gillespie-type stochastic simulation of a mass-action SIR epidemic with JumpProcesses.jl, repeated over seeded runs.
+- [JUNE](june.md) - An individual-based COVID-19 simulation of England on a census-derived virtual population, with households, schools, workplaces and care homes.
+- [KaSim / KappaTools](kasim-kappatools.md) - Simulate a rule-based Kappa model stochastically with the network-free KaSim engine (through the kappy Python client) and return the observables over time.
+- [L-Py](l-py.md) - Grow a stochastic branching tree with an L-system, and write the derived string, 3D geometry and segment counts.
+- [LAMMPS](lammps.md) - Classical molecular dynamics of atoms, polymers and coarse-grained or biomolecular systems, driven by a LAMMPS input script.
+- [LFPy](lfpy.md) - Compute extracellular potentials (LFP, spikes, EEG, MEG) from multicompartment neuron models run in NEURON.
+- [libRoadRunner](libroadrunner.md) - Simulate an SBML model as a deterministic (CVODE, RK4) or stochastic (Gillespie) time course, and find its steady state.
+- [LightDock](lightdock.md) - Rigid-body protein-protein docking with a glowworm swarm optimiser; returns a ranked list of poses and the top complexes as PDB files.
+- [LPJmL](lpjml.md) - Dynamic global vegetation, water and carbon model with crops, run here on the bundled two-grid-cell test data set.
+- [LRSim](lrsim.md) - Simulate 10x Genomics-style linked reads (barcoded molecules, two haplotypes with random variants) from a reference FASTA.
+- [Mason (SeqAn)](mason.md) - Simulate paired-end Illumina reads from a reference genome with Mason 2, writing FASTQ files and a SAM file of the true alignments.
+- [MEmilio](memilio.md) - Deterministic SEIR epidemic in one population with an optional contact reduction, solved by MEmilio's C++ ODE model; writes the daily compartments and a summary.
+- [MICOM](micom.md) - Community flux balance with the cooperative trade-off, on a bundled community of E. coli core models.
+- [Molly.jl](molly-jl.md) - Molecular dynamics of a Lennard-Jones gas in Julia with an Andersen thermostat, returning an XYZ trajectory, an energy log and the radial distribution function.
+- [mrgsolve](mrgsolve.md) - Simulate repeated oral dosing, plasma concentration and an indirect response for a virtual group of subjects with mrgsolve's pre-compiled house model, from R.
+- [msprime](msprime.md) - Simulate a coalescent genealogy with recombination and mutation, and write a VCF, a tree sequence and summary statistics.
+- [muscat (simData)](muscat.md) - Simulate multi-sample, multi-condition scRNA-seq counts with cluster-specific differential-state genes, anchored to a reference data set that ships with the package.
+- [MyoSuite](myosuite.md) - Muscle-actuated musculoskeletal models with motor-control tasks, simulated in MuJoCo through a Gymnasium interface; the recipe rolls out an elbow-pose task on the CPU.
+- [NanoSim](nanosim.md) - Simulate Oxford Nanopore genomic reads from a reference genome using a pre-trained error and read-length model.
+- [NDlib](ndlib.md) - Run an SI, SIS, SIR or SEIR epidemic on a random network (Erdos-Renyi, Barabasi-Albert or Watts-Strogatz) and write the compartment counts per iteration.
+- [NEAT](neat.md) - Simulate Illumina-like reads with empirical error models, insert random variants at a chosen rate, and write the true variants (golden VCF) and true alignments (golden BAM).
+- [Nemo](nemo.md) - Individual-based forward-time simulation of population genetics and life-history evolution in structured populations, driven by an ini-style configuration file.
+- [Nengo](nengo.md) - Build a Neural Engineering Framework model in Python; the example passes a sine wave through two spiking ensembles and decodes it back.
+- [NEST](nest.md) - Simulate point-neuron spiking networks; the example drives integrate-and-fire neurons with a constant current and records a voltage trace and spike times.
+- [NetLogo Web](netlogo.md) - Agent-based models from the NetLogo Models Library, run by NetLogo Web (Tortoise) embedded from netlogoweb.org, with a seeded run and population chart.
+- [NetPyNE](netpyne.md) - Build and run a network of Hodgkin-Huxley neurons on NEURON from a declarative NetPyNE parameter file, and save the spike times and per-population firing rates.
+- [neuroConstruct](neuroconstruct.md) - A Java application for building networks of multicompartmental neurons in 3D space, which then generates scripts for NEURON, GENESIS and other simulators.
+- [neurolib](neurolib.md) - Simulate one whole-brain-model node, an AdEx mean-field excitatory and inhibitory population (ALNModel), and write its firing-rate time series.
+- [NeuroML2 / pyNeuroML / LEMS](pyneuroml.md) - Run a NeuroML2 model described in LEMS (a single-compartment Hodgkin-Huxley cell with a current pulse) with pyNeuroML and the bundled jNeuroML simulator.
+- [NEURON](neuron.md) - Simulate a biophysically detailed neuron; the example is a Hodgkin-Huxley soma with a current-clamp pulse and a recorded membrane potential.
+- [Neuronify](neuronify.md) - An educational app for building small neural circuits from integrate-and-fire neurons, stimulators and recording devices by drag and drop.
+- [NGC-Learn](ngclearn.md) - Simulate a spiking leaky integrate-and-fire neuron in the JAX-based ngc-learn library and record its membrane potential and spikes under a step current.
+- [NicheMapR](nichemapr.md) - Compute hourly microclimate for a site on land, then the body temperature and activity hours of a lizard-like ectotherm living in it.
+- [Nimble Physics](nimble-physics.md) - Differentiable rigid-body dynamics for articulated bodies, used for biomechanics; the recipe steps a cart-and-pole system forward in time.
+- [Norse](norse.md) - Run bio-inspired spiking neuron layers as PyTorch modules; the example feeds leaky integrate-and-fire neurons constant inputs and counts their spikes.
+- [NWChem](nwchem.md) - Computational chemistry package for quantum chemistry, QM/MM and molecular dynamics, driven by an NWChem input deck.
+- [odin](odin.md) - Compile an ODE or discrete-time stochastic compartmental model written in the odin language and write its trajectories and summary.
+- [OpenABM-Covid19](openabm-covid19.md) - Age-stratified agent-based SARS-CoV-2 epidemic on household, workplace and random contact networks, with optional lockdown and app-based contact tracing.
+- [openCARP (single-cell bench)](opencarp.md) - Run a single-cell cardiac ionic model with periodic stimuli using openCARP's bench tool and return the transmembrane voltage and ionic current traces.
+- [OpenDrift](opendrift.md) - Drift a cloud of surface particles under constant current, wind and horizontal diffusion with the OceanDrift model, and write NetCDF trajectories and a summary checked against the hand-computed displacement.
+- [OpenFE](openfe.md) - Plan a relative hydration free-energy network for a set of ligands, atom-mapped and written as transformation files for OpenMM; planning only, no simulation.
+- [OpenMalaria](openmalaria.md) - Run a stochastic individual-based Plasmodium falciparum malaria scenario and report patent prevalence by survey.
+- [OpenMD](openmd.md) - Molecular dynamics of liquids, interfaces, nanoparticles and proteins, including rigid water models and point dipoles.
+- [OpenMM](openmm.md) - Molecular dynamics of a solvated structure with the AMBER or CHARMM force fields; upload a PDB, get a minimised, equilibrated trajectory back.
+- [openmmtools](openmmtools.md) - Parallel-tempering replica exchange of alanine dipeptide on the OpenMM CPU platform, with the replica paths and the mean potential energy at each temperature.
+- [OpenPathSampling](openpathsampling.md) - Sample transition paths between two states of a 2D double-well toy system with one-way shooting, and report acceptance, path length and the last accepted path.
+- [OpenSim](opensim.md) - Forward dynamics of an OpenSim musculoskeletal or mechanical model (.osim) from its default pose, returning coordinate trajectories as CSV.
+- [OpenWorm](openworm.md) - An integrated simulation of the nematode C. elegans that couples a neuron-level nervous system model (c302) to a 3D body-physics model (Sibernetic), distributed as a Docker stack.
+- [ospsuite (OSPSuite-R)](ospsuite-r.md) - Load a PK-Sim or MoBi physiologically based pharmacokinetic simulation (.pkml), optionally scale its doses, run it and export the output time profiles.
+- [oxDNA](oxdna.md) - Coarse-grained simulation of DNA and RNA at nucleotide resolution by Monte Carlo or molecular dynamics.
+- [PAML evolver](paml-evolver.md) - Simulate nucleotide sequence alignments along a given tree under JC69 to REV substitution models with discrete-gamma rate variation, driven by a PAML control file.
+- [Parcels](parcels.md) - Track passive particles through an analytic Stommel gyre ocean flow with a chosen integration scheme, optional random-walk diffusion and a writable trajectory file.
+- [PBSIM2](pbsim2.md) - Simulate PacBio and Oxford Nanopore long reads from a reference genome using an HMM model of quality scores.
+- [PBSIM3](pbsim3.md) - Simulate Oxford Nanopore and PacBio RS II (CLR) long reads from a reference genome using built-in quality-score HMM error models.
+- [PCSE (Python Crop Simulation Environment)](pcse.md) - Simulate daily crop growth, phenology and nitrogen uptake of spring wheat with the LINTUL3 model in PCSE, driven by a weather file and a nitrogen schedule.
+- [perses](perses.md) - Relative alchemical free-energy and expanded-ensemble simulations on OpenMM, for small-molecule transformations and protein mutations.
+- [PhysiCell](physicell.md) - Off-lattice 2-D agent-based model of proliferating cells with cycle phases, apoptosis, adhesion, repulsion and optional random motility; writes live and dying cell counts over time and SVG snapshots.
+- [phytools](phytools.md) - Simulate a birth-death phylogeny with a fixed number of living tips and a continuous trait evolving on it by Brownian motion.
+- [pIRS](pirs.md) - Simulate paired-end Illumina reads from a reference FASTA using empirical base-calling, indel and GC-bias profiles.
+- [PK-Sim / Open Systems Pharmacology Suite](pk-sim.md) - Whole-body physiologically based pharmacokinetic modelling for drugs in humans and lab animals, in a Windows desktop application, with MoBi for custom systems pharmacology models.
+- [PKPDsim](pkpdsim.md) - Simulate drug concentration over time from a one-compartment PK model under a dosing regimen, with optional between-subject variability.
+- [plant](plant-traitecoevo.md) - Simulate a size-structured stand of plants competing for light under a disturbance regime, using the FF16 trait-based growth model.
+- [PLUMED 2](plumed-2.md) - Metadynamics on a model energy landscape with PLUMED's built-in Langevin engine, returning the collective-variable trace, the deposited hills and the reconstructed free-energy profile.
+- [pomp](pomp.md) - Simulate a partially observed stochastic SIR epidemic many times, with binomial case reports, and return the latent S/I/R paths and reported cases.
+- [PReFerSim](prefersim.md) - Forward simulation under the Poisson Random Field model with a two-epoch demography and a point or gamma distribution of selection coefficients; returns SFS, SNP counts and per-site output.
+- [pyafv](pyafv.md) - Active finite Voronoi model of confluent epithelial tissue; simulates self-propelled cells and returns trajectories, tissue statistics and a final snapshot.
+- [PyBoolNet](pyboolnet.md) - Find the steady states and attractor candidates of a Boolean network, then run seeded random walks under synchronous, asynchronous or mixed updating.
+- [PyLEMS](pylems.md) - Run a LEMS (Low Entropy Model Specification) model file, such as an ODE-based neuron or synapse model, and write its output files.
+- [PyNN](pynn.md) - Describe a spiking network once in PyNN and run it; this run uses the Brian 2 back end to drive integrate-and-fire cells with DC currents and record membrane potentials and spikes.
+- [PyRates](pyrates.md) - Generate and run code for neural mass, rate-based and other dynamical systems models defined as graphs of differential equations.
+- [PyRoss](pyross.md) - Age-structured SIR epidemic, solved as an ODE and as stochastic runs (tau-leaping or Gillespie), with the daily curves and final size per age group.
+- [PySAGES](pysages.md) - Estimate the free energy along the distance of a Lennard-Jones dimer with adaptive biasing force or metadynamics, and compare it with the exact curve.
+- [PySB](pysb.md) - Build a rule-based model in Python, let BioNetGen expand it to reactions, and integrate the ODEs with SciPy.
+- [Pyvolve](pyvolve.md) - Simulate nucleotide, amino-acid or codon sequence alignments along an input phylogeny (Newick) under a continuous-time Markov substitution model.
+- [R simulators (webR)](webr.md) - R 4.6 in the browser: stochastic SIR epidemics with SimInf or adaptivetau, and random trees with ape.
+- [RatInABox](ratinabox.md) - Simulate a rat exploring a square arena and the synthetic firing of place cells and grid cells along its path.
+- [RAVEN Toolbox](raven-toolbox.md) - MATLAB toolbox that reconstructs genome-scale metabolic models from genomes and databases, then curates and simulates them with flux balance analysis.
+- [ReaDDy](readdy.md) - Particle-based reaction-diffusion of a reversible A + B <-> C reaction in a periodic box, returning particle counts over time.
+- [ReFramed](reframed.md) - Constraint-based analysis of a genome-scale metabolic model (SBML): FBA, parsimonious FBA or flux variability analysis, with optional uptake limits and a reaction knockout.
+- [Rockpool](rockpool.md) - Build, simulate and train spiking and rate neural networks in Python, with layers that map onto neuromorphic hardware.
+- [Rosetta](rosetta.md) - Monte Carlo modelling of protein and macromolecular structure for prediction, design, docking and refinement, with a Python interface called PyRosetta.
+- [RSEM (rsem-simulate-reads)](rsem.md) - Fit an RSEM expression model on a small synthetic RNA-seq sample, then simulate new single-end RNA-seq reads from that model with rsem-simulate-reads.
+- [rxode2](rxode2.md) - Solve an ODE-based pharmacokinetic or pharmacodynamic model from the rxode2 mini-language for a repeated-dose regimen.
+- [scDesign3](scdesign3.md) - Learn a copula model of single-cell data along a pseudotime trajectory and simulate a new count matrix, using the example data that ships with the package.
+- [scMultiSim](scmultisim.md) - Simulate paired single-cell RNA and ATAC counts, optionally with RNA velocity, from a cell differentiation tree and a gene regulatory network.
+- [scrm](scrm.md) - Simulate genome-scale samples under the coalescent with recombination (ms-compatible output) using the sequential coalescent approximation.
+- [SELAM](selam.md) - Forward-time simulation of admixture between ancestral populations with optional selection, from a demography file and a sampling file.
+- [Seq-Gen](seq-gen.md) - Simulate the evolution of nucleotide or amino-acid sequences along a phylogenetic tree under Markov substitution models.
+- [SERGIO](sergio.md) - Simulate single-cell expression from a gene regulatory network, with stochastic transcription, one expression state per cell type, and optional technical noise.
+- [Simbrain](simbrain.md) - A visual desktop program for building, running and analysing neural networks (rate and spiking) and embodied agents in simulated worlds, for teaching and exploration.
+- [simglucose](simglucose.md) - Type 1 diabetes glucose-insulin simulator (UVA/Padova model) with 30 virtual patients, a CGM sensor, an insulin pump and a basal-bolus controller.
+- [SimLoRD](simlord.md) - Simulate PacBio SMRT long reads (with pass-dependent insertion, deletion and substitution errors) from a reference FASTA.
+- [SimNIBS](simnibs.md) - Finite-element simulation of the electric fields that TMS, tDCS and other non-invasive brain stimulation induce in individualised head models.
+- [SimProt](simprot.md) - Protein sequence evolution with indels along a tree; writes the true alignment.
+- [simuG](simug.md) - Simulate a genome carrying random SNPs and indels relative to a reference FASTA, with the matching VCFs and coordinate map.
+- [simuPOP](simupop.md) - Forward-time Wright-Fisher simulation of a diploid population with mutation, recombination and optional selection, returning allele-frequency trajectories and heterozygosity.
+- [SimVascular](simvascular.md) - Desktop pipeline from medical images to patient-specific blood flow simulation, with finite-element solvers and reduced-order models.
+- [Sire](sire.md) - Python and C++ molecular simulation toolkit; the recipe minimises a small water box and runs short OpenMM dynamics through Sire.
+- [slendr](slendr.md) - Define a population-split model in R, simulate it with msprime as a tree sequence, and compute diversity, divergence and F_ST.
+- [SLiM](slim.md) - Forward-time, individual-based population genetics simulation scripted in Eidos. Upload a SLiM script; files it writes are returned.
+- [SOFA Framework](sofa-framework.md) - Real-time finite-element and rigid-body physics; the recipe runs a headless scene of a point mass on a spring under gravity and records its trajectory.
+- [SpaDES](spades.md) - Run a SpaDES.core discrete-event simulation of forest ageing and fire spread on a raster, and write yearly fire statistics and the final age map.
+- [Splatter](splatter.md) - Simulate scRNA-seq count matrices with the Splat gamma-Poisson model, with optional cell groups, differential expression and dropout.
+- [sPyNNaker](spynnaker.md) - Runs PyNN-defined spiking neural network simulations on SpiNNaker neuromorphic hardware, for researchers who have access to a SpiNNaker board or the Manchester machine.
+- [squigulator](squigulator.md) - Simulate raw nanopore signal (SLOW5/BLOW5) for DNA reads sampled from a reference genome, with R9.4.1 or R10.4.1 pore models and tunable noise.
+- [squire](squire.md) - Age-structured COVID-19 SEIR model with hospital and ICU demand, run as an ODE or as one stochastic replicate, with a change in R0 on a chosen day.
+- [stdpopsim](stdpopsim.md) - Simulate genomes under curated published demographic models (human, fly, Arabidopsis) with msprime, returning tree sequences, a VCF and summary statistics.
+- [SURVIVOR](survivor.md) - Simulate structural variants (deletions, duplications, inversions, translocations, insertions) and SNPs on a reference genome, writing the altered FASTA and a list of the planted events.
+- [Synthea](synthea.md) - Generate synthetic patient lifespans with diseases, encounters, medications and procedures, and write them as CSV tables.
+- [Tellurium](tellurium.md) - Load an Antimony reaction model and run a deterministic ODE or repeated stochastic (Gillespie) timecourse with libRoadRunner.
+- [The Virtual Brain (TVB)](tvb.md) - Simulate large-scale brain network dynamics, here a stochastic linear model on the bundled 76-region human connectome, and save the regional time series.
+- [Tinker](tinker.md) - Molecular mechanics and dynamics in Fortran, with polarizable AMOEBA and HIPPO force fields, for CPUs, under a licence that is free for named academic users.
+- [Tinker-HP](tinker-hp.md) - A massively parallel MPI and GPU molecular dynamics package with polarizable force fields (AMOEBA, AMOEBA+, HIPPO), for large systems on clusters.
+- [TorchCor](torchcor.md) - Finite-element cardiac electrophysiology on heart meshes in PyTorch, from monodomain tissue models to reaction-eikonal activation maps and 12-lead ECGs.
+- [TorchMD](torchmd.md) - Run a short Langevin molecular dynamics simulation of a water box with TorchMD (CHARMM-style force field written in PyTorch) and log potential, kinetic and total energy and temperature.
+- [TransPhylo](transphylo.md) - Simulate an outbreak with its phylogeny, then infer who infected whom and the reproduction number from the dated tree.
+- [treesimulator](treesimulator.md) - Simulate a rooted phylogenetic tree under an epidemiological birth-death model with sampling.
+- [tyssue](tyssue.md) - Relax a planar epithelium vertex model (line tension, contractility, area elasticity) to its energy minimum and return cell geometry and a picture.
+- [Uni-Dock](unidock.md) - GPU-accelerated docking of many small-molecule ligands into one protein target, using the Vina, Vinardo or AD4 scoring functions.
+- [VarSim](varsim.md) - Simulate a diploid human genome with germline and somatic SNVs, indels and structural variants, generate reads from it, and score alignments and variant calls against the truth.
+- [vcfsim](vcfsim.md) - Simulate all-sites VCF files with configurable missing data from msprime coalescent simulations.
+- [Virtual Cell (VCell)](vcell.md) - Desktop modelling environment for cell biology with compartmental ODE, stochastic, spatial reaction-diffusion and rule-based simulation, plus geometries from microscope images.
+- [VISOR](visor.md) - Insert haplotype-specific structural variants (deletions, inversions, duplications and more) into a reference, then simulate paired-end short reads from both haplotypes.
+- [WESTPA](westpa.md) - Weighted-ensemble path sampling of a rare barrier-crossing event for a 1-D Langevin particle, with walker splitting and merging by bin.
+- [wgsim](wgsim.md) - Simulate paired-end Illumina-like reads from a reference genome, with sequencing errors, SNPs and small indels.
+- [worm-sim](worm-sim.md) - A browser demo in which a simulated C. elegans connectome steers a crawling worm toward food you drop on the page.
+- [XPPAUT](xppaut.md) - Integrate a user-supplied system of ODEs or difference equations in XPPAUT batch mode and return the time series as a table.
