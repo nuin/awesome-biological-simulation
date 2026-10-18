@@ -52,6 +52,8 @@ seq-gen -mHKY -l1000 -z42 -op tree.nwk > alignment.phy
 
 This recipe builds Seq-Gen in a container and runs the example below. It needs [Docker](https://docs.docker.com/get-docker/) and nothing else. It last ran on 2026-10-12 in 0.2 s.
 
+![Terminal recording of the Seq-Gen example](https://biosimhub.pages.dev/media/seq-gen/run.gif)
+
 1. Download [seq-gen-recipe.tar.gz](https://biosimhub.pages.dev/guides/seq-gen/seq-gen-recipe.tar.gz) (Dockerfile, example tree.nwk, run.sh).
 2. Unpack it and run the script:
 

@@ -30,7 +30,7 @@ def cell(text):
     return str(text).replace("|", "\\|").replace("\n", " ")
 
 
-def example(s):
+def example(s, media):
     out = ["## Run the tested example", ""]
     line = f"This recipe builds {s['title']} in a container and runs the example below. It needs [Docker](https://docs.docker.com/get-docker/) and nothing else."
     if s.get("expected"):
@@ -39,10 +39,13 @@ def example(s):
         line += " It follows the project's documentation and has not been run yet."
     if s.get("emulated"):
         line += f" {s['title']} has no ARM build, so on Apple silicon Docker runs the x86 image under emulation, which is slower."
+    if media.get("gif"):
+        out += [line, "", f"![Terminal recording of the {s['title']} example]({SITE}{media['gif']})", ""]
+        line = None
     files = ", ".join(s["files"])
     if s["examples"]:
         files += ", example " + ", ".join(e["name"] for e in s["examples"])
-    out += [line, "",
+    out += ([line, ""] if line else []) + [
             f"1. Download [{s['id']}-recipe.tar.gz]({SITE}{s['archive']}) ({files}, run.sh).",
             "2. Unpack it and run the script:", "",
             "   ```sh", f"   tar -xzf {s['id']}-recipe.tar.gz", f"   cd {s['id']}", "   sh run.sh", "   ```", ""]
@@ -55,6 +58,8 @@ def example(s):
         out += ["### Expected output", "", "| File | Size |", "|---|---:|"]
         out += [f"| `{cell(f['file'])}` | {size(f['bytes'])} |" for f in e["files"]]
         out += [""]
+        if media.get("plot"):
+            out += [f"![Plot of the {s['title']} example output]({SITE}{media['plot']})", "", "*Drawn from the example's output files.*", ""]
         for f in e["files"]:
             if f.get("head"):
                 out += [f"<details><summary>First lines of <code>{f['file']}</code></summary>", "", "```",
@@ -91,7 +96,9 @@ def convert(g, body):
         p = g["plugin"]
         head += [f"**[Run {p['title']} in your browser]({SITE}{p['href']})**: {p['summary']} "
                  f"Nothing to install; the first visit downloads about {round(p['download_kb'] / 1024)} MB.", ""]
-    ex = example(g["server"]) if g.get("server") else ""
+        if g["media"].get("plugin"):
+            head += [f"[![The {p['title']} plugin after its default run]({SITE}{g['media']['plugin']['light']})]({SITE}{p['href']})", ""]
+    ex = example(g["server"], g.get("media") or {}) if g.get("server") else ""
     if "<!-- example -->" in body:
         body = body.replace("<!-- example -->", ex, 1)
     elif ex:

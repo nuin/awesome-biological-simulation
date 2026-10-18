@@ -6,6 +6,8 @@ Licence: Artistic-2.0 (COPASI); BSD-2-Clause (COPASI.js) · [Source code](https:
 
 **[Run COPASI in your browser](https://biosimhub.pages.dev/run/copasi/index.html)**: Deterministic (LSODA, RADAU5) and stochastic (Gillespie, Gibson-Bruck, tau-leap) time courses of SBML biochemical models. Nothing to install; the first visit downloads about 7 MB.
 
+[![The COPASI plugin after its default run](https://biosimhub.pages.dev/media/copasi/plugin-light.png)](https://biosimhub.pages.dev/run/copasi/index.html)
+
 ## What it simulates
 
 COPASI simulates biochemical reaction networks: species that react through rate laws, in compartments of fixed volume. You give it a model in SBML. It returns the amount or concentration of each species over time.

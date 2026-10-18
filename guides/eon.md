@@ -45,6 +45,8 @@ In the recipe's image this printed 1004 events, a peak of 90 infectious nodes an
 
 This recipe builds EoN (Epidemics on Networks) in a container and runs the example below. It needs [Docker](https://docs.docker.com/get-docker/) and nothing else. It last ran on 2026-10-17 in 1.2 s.
 
+![Terminal recording of the EoN (Epidemics on Networks) example](https://biosimhub.pages.dev/media/eon/run.gif)
+
 1. Download [eon-recipe.tar.gz](https://biosimhub.pages.dev/guides/eon/eon-recipe.tar.gz) (Dockerfile, driver.py, run.sh).
 2. Unpack it and run the script:
 
@@ -79,6 +81,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `epidemic_mean.csv` | 1.0 KB |
 | `run_log.txt` | 135 B |
 | `summary.csv` | 612 B |
+
+![Plot of the EoN (Epidemics on Networks) example output](https://biosimhub.pages.dev/media/eon/result.png)
+
+*Drawn from the example's output files.*
 
 <details><summary>First lines of <code>epidemic_mean.csv</code></summary>
 

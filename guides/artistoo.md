@@ -6,6 +6,8 @@ Licence: MIT · [Source code](https://github.com/ingewortel/artistoo)
 
 **[Run Artistoo in your browser](https://biosimhub.pages.dev/run/artistoo/index.html)**: Cellular Potts model of cells and tissues: cell sorting by differential adhesion, or a single migrating cell (Act model). Nothing to install; the first visit downloads about 0 MB.
 
+[![The Artistoo plugin after its default run](https://biosimhub.pages.dev/media/artistoo/plugin-light.png)](https://biosimhub.pages.dev/run/artistoo/index.html)
+
 ## What it simulates
 
 Artistoo simulates cells on a pixel grid with the Cellular Potts Model (CPM). Each cell is a set of pixels. The model makes copy attempts, where a pixel tries to take the label of a neighbor. Energy constraints decide how likely each attempt is. The constraints here are adhesion between neighbors, a volume constraint and, for the Act model, perimeter and activity constraints. The page counts time in Monte Carlo steps (MCS).
