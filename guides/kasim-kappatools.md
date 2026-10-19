@@ -55,6 +55,8 @@ This recipe builds KaSim / KappaTools in a container and runs the example below.
    sh run.sh
    ```
 
+![Terminal recording of the KaSim / KappaTools example run](https://biosimhub.pages.dev/media/kasim-kappatools/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

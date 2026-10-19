@@ -52,6 +52,8 @@ This recipe builds scrm in a container and runs the example below. It needs [Doc
    sh run.sh
    ```
 
+![Terminal recording of the scrm example run](https://biosimhub.pages.dev/media/scrm/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

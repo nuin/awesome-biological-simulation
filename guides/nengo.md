@@ -49,6 +49,8 @@ This recipe builds Nengo in a container and runs the example below. It needs [Do
    sh run.sh
    ```
 
+![Terminal recording of the Nengo example run](https://biosimhub.pages.dev/media/nengo/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -72,6 +74,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `decoded.csv` | 60.6 KB |
 | `run_log.txt` | 47 B |
 | `summary.csv` | 61 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/nengo/result-dark.png"><img src="https://biosimhub.pages.dev/media/nengo/result.png" alt="Plot of the Nengo example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>decoded.csv</code></summary>
 

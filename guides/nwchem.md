@@ -45,6 +45,8 @@ This recipe builds NWChem in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the NWChem example run](https://biosimhub.pages.dev/media/nwchem/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

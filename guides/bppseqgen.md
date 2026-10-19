@@ -63,6 +63,8 @@ This recipe builds Bio++ bppseqgen in a container and runs the example below. It
    sh run.sh
    ```
 
+![Terminal recording of the Bio++ bppseqgen example run](https://biosimhub.pages.dev/media/bppseqgen/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

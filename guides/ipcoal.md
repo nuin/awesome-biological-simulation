@@ -56,6 +56,8 @@ This recipe builds ipcoal in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the ipcoal example run](https://biosimhub.pages.dev/media/ipcoal/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

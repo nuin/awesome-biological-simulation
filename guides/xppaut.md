@@ -60,6 +60,8 @@ This recipe builds XPPAUT in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the XPPAUT example run](https://biosimhub.pages.dev/media/xppaut/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

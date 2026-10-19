@@ -62,6 +62,8 @@ This recipe builds PAML evolver in a container and runs the example below. It ne
    sh run.sh
    ```
 
+![Terminal recording of the PAML evolver example run](https://biosimhub.pages.dev/media/paml-evolver/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

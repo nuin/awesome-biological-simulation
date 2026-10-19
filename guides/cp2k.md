@@ -44,6 +44,8 @@ This recipe builds CP2K in a container and runs the example below. It needs [Doc
    sh run.sh
    ```
 
+![Terminal recording of the CP2K example run](https://biosimhub.pages.dev/media/cp2k/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

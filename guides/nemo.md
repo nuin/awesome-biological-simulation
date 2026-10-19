@@ -52,6 +52,8 @@ This recipe builds Nemo in a container and runs the example below. It needs [Doc
    sh run.sh
    ```
 
+![Terminal recording of the Nemo example run](https://biosimhub.pages.dev/media/nemo/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

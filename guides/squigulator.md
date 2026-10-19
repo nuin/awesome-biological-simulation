@@ -70,6 +70,8 @@ This recipe builds squigulator in a container and runs the example below. It nee
    sh run.sh
    ```
 
+![Terminal recording of the squigulator example run](https://biosimhub.pages.dev/media/squigulator/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

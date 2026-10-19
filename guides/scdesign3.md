@@ -78,6 +78,8 @@ This recipe builds scDesign3 in a container and runs the example below. It needs
    sh run.sh
    ```
 
+![Terminal recording of the scDesign3 example run](https://biosimhub.pages.dev/media/scdesign3/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -101,6 +103,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `pseudotime.csv` | 75.5 KB |
 | `scdesign3_log.txt` | 336 B |
 | `simulated_counts_sparse.csv` | 1.8 MB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/scdesign3/result-dark.png"><img src="https://biosimhub.pages.dev/media/scdesign3/result.png" alt="Plot of the scDesign3 example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>pseudotime.csv</code></summary>
 

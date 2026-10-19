@@ -62,6 +62,8 @@ This recipe builds fwdpy11 in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the fwdpy11 example run](https://biosimhub.pages.dev/media/fwdpy11/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -87,6 +89,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `sfs.csv` | 256 B |
 | `sim.vcf` | 71.4 KB |
 | `summary.txt` | 212 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/fwdpy11/result-dark.png"><img src="https://biosimhub.pages.dev/media/fwdpy11/result.png" alt="Plot of the fwdpy11 example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>run_log.txt</code></summary>
 

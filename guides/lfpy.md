@@ -49,6 +49,8 @@ This recipe builds LFPy in a container and runs the example below. It needs [Doc
    sh run.sh
    ```
 
+![Terminal recording of the LFPy example run](https://biosimhub.pages.dev/media/lfpy/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -72,6 +74,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `lfp.csv` | 236.9 KB |
 | `run_log.txt` | 52 B |
 | `traces.csv` | 48.3 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/lfpy/result-dark.png"><img src="https://biosimhub.pages.dev/media/lfpy/result.png" alt="Plot of the LFPy example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>lfp.csv</code></summary>
 

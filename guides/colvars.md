@@ -41,6 +41,8 @@ This recipe builds Colvars in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the Colvars example run](https://biosimhub.pages.dev/media/colvars/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

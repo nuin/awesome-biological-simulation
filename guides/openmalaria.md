@@ -41,6 +41,8 @@ This recipe builds OpenMalaria in a container and runs the example below. It nee
    sh run.sh
    ```
 
+![Terminal recording of the OpenMalaria example run](https://biosimhub.pages.dev/media/openmalaria/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -67,6 +69,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `prevalence.csv` | 236 B |
 | `run_log.txt` | 33 B |
 | `scenario.xml` | 51.7 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/openmalaria/result-dark.png"><img src="https://biosimhub.pages.dev/media/openmalaria/result.png" alt="Plot of the OpenMalaria example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>ctsout.txt</code></summary>
 

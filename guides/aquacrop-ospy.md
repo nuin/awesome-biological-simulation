@@ -64,6 +64,8 @@ This recipe builds AquaCrop-OSPy in a container and runs the example below. It n
    sh run.sh
    ```
 
+![Terminal recording of the AquaCrop-OSPy example run](https://biosimhub.pages.dev/media/aquacrop-ospy/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -90,6 +92,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `run_log.txt` | 1.2 KB |
 | `seasons.csv` | 635 B |
 | `water_flux.csv` | 222.5 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/aquacrop-ospy/result-dark.png"><img src="https://biosimhub.pages.dev/media/aquacrop-ospy/result.png" alt="Plot of the AquaCrop-OSPy example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>crop_growth.csv</code></summary>
 

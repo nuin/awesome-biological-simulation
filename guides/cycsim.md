@@ -49,6 +49,8 @@ This recipe builds CycSim in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the CycSim example run](https://biosimhub.pages.dev/media/cycsim/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

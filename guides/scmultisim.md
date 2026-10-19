@@ -79,6 +79,8 @@ This recipe builds scMultiSim in a container and runs the example below. It need
    sh run.sh
    ```
 
+![Terminal recording of the scMultiSim example run](https://biosimhub.pages.dev/media/scmultisim/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -104,6 +106,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `counts_true.csv` | 62.7 KB |
 | `scmultisim_log.txt` | 114 B |
 | `summary.txt` | 57 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/scmultisim/result-dark.png"><img src="https://biosimhub.pages.dev/media/scmultisim/result.png" alt="Plot of the scMultiSim example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>atac_counts.csv</code></summary>
 

@@ -46,6 +46,8 @@ This recipe builds Chaste in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the Chaste example run](https://biosimhub.pages.dev/media/chaste/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -68,6 +70,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `final_cells.csv` | 11.2 KB |
 | `population.csv` | 709 B |
 | `run_log.txt` | 1.8 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/chaste/result-dark.png"><img src="https://biosimhub.pages.dev/media/chaste/result.png" alt="Plot of the Chaste example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>final_cells.csv</code></summary>
 

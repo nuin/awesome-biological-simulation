@@ -48,6 +48,8 @@ This recipe builds COBRApy in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the COBRApy example run](https://biosimhub.pages.dev/media/cobrapy/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -71,6 +73,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `fba_fluxes.csv` | 1.7 KB |
 | `fva.csv` | 3.2 KB |
 | `run_log.txt` | 103 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/cobrapy/result-dark.png"><img src="https://biosimhub.pages.dev/media/cobrapy/result.png" alt="Plot of the COBRApy example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>fba_fluxes.csv</code></summary>
 

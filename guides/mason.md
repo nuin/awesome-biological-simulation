@@ -74,6 +74,8 @@ This recipe builds Mason (SeqAn) in a container and runs the example below. It n
    sh run.sh
    ```
 
+![Terminal recording of the Mason (SeqAn) example run](https://biosimhub.pages.dev/media/mason/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

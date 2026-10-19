@@ -62,6 +62,8 @@ This recipe builds NDlib in a container and runs the example below. It needs [Do
    sh run.sh
    ```
 
+![Terminal recording of the NDlib example run](https://biosimhub.pages.dev/media/ndlib/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -87,6 +89,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `run_log.txt` | 256 B |
 | `summary.json` | 277 B |
 | `trends.csv` | 1.4 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/ndlib/result-dark.png"><img src="https://biosimhub.pages.dev/media/ndlib/result.png" alt="Plot of the NDlib example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>run_log.txt</code></summary>
 

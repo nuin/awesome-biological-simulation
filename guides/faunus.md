@@ -48,6 +48,8 @@ This recipe builds Faunus in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the Faunus example run](https://biosimhub.pages.dev/media/faunus/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

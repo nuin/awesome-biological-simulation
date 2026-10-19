@@ -63,6 +63,8 @@ This recipe builds AutoDock Vina in a container and runs the example below. It n
    sh run.sh
    ```
 
+![Terminal recording of the AutoDock Vina example run](https://biosimhub.pages.dev/media/vina/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

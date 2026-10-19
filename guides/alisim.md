@@ -66,6 +66,8 @@ This recipe builds AliSim (IQ-TREE 2) in a container and runs the example below.
    sh run.sh
    ```
 
+![Terminal recording of the AliSim (IQ-TREE 2) example run](https://biosimhub.pages.dev/media/alisim/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

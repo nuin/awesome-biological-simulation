@@ -54,6 +54,8 @@ This recipe builds Covasim in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the Covasim example run](https://biosimhub.pages.dev/media/covasim/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -78,6 +80,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `run_log.txt` | 306 B |
 | `summary.json` | 289 B |
 | `timeseries.csv` | 23.4 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/covasim/result-dark.png"><img src="https://biosimhub.pages.dev/media/covasim/result.png" alt="Plot of the Covasim example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>run_log.txt</code></summary>
 

@@ -6,6 +6,8 @@ Licence: GPL-3.0 (webR binaries; R itself GPL-2 | GPL-3); packages: SimInf GPL-3
 
 **[Run R simulators (webR) in your browser](https://biosimhub.pages.dev/run/webr/index.html)**: R 4.6 in the browser: stochastic SIR epidemics with SimInf or adaptivetau, and random trees with ape. Nothing to install; the first visit downloads about 22 MB.
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/webr/plugin-dark.png"><img src="https://biosimhub.pages.dev/media/webr/plugin-light.png" alt="R simulators (webR) running in the browser" width="760"></picture>
+
 ## What it simulates
 
 webR is R compiled to WebAssembly, so R packages run inside your browser tab. The page uses it for three models.

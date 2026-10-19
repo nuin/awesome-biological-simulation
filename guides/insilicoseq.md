@@ -68,6 +68,8 @@ This recipe builds InSilicoSeq in a container and runs the example below. It nee
    sh run.sh
    ```
 
+![Terminal recording of the InSilicoSeq example run](https://biosimhub.pages.dev/media/insilicoseq/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

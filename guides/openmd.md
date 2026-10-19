@@ -66,6 +66,8 @@ This recipe builds OpenMD in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the OpenMD example run](https://biosimhub.pages.dev/media/openmd/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

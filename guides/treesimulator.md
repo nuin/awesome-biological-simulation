@@ -56,6 +56,8 @@ This recipe builds treesimulator in a container and runs the example below. It n
    sh run.sh
    ```
 
+![Terminal recording of the treesimulator example run](https://biosimhub.pages.dev/media/treesimulator/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

@@ -54,6 +54,8 @@ This recipe builds OpenABM-Covid19 in a container and runs the example below. It
    sh run.sh
    ```
 
+![Terminal recording of the OpenABM-Covid19 example run](https://biosimhub.pages.dev/media/openabm-covid19/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -79,6 +81,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `by_age.csv` | 198 B |
 | `run_log.txt` | 183 B |
 | `timeseries.csv` | 4.2 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/openabm-covid19/result-dark.png"><img src="https://biosimhub.pages.dev/media/openabm-covid19/result.png" alt="Plot of the OpenABM-Covid19 example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>by_age.csv</code></summary>
 

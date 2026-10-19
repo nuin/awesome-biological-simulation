@@ -46,6 +46,8 @@ This recipe builds DeePMD-kit in a container and runs the example below. It need
    sh run.sh
    ```
 
+![Terminal recording of the DeePMD-kit example run](https://biosimhub.pages.dev/media/deepmd-kit/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

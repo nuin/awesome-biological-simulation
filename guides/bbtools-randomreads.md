@@ -61,6 +61,8 @@ This recipe builds BBTools randomreads.sh in a container and runs the example be
    sh run.sh
    ```
 
+![Terminal recording of the BBTools randomreads.sh example run](https://biosimhub.pages.dev/media/bbtools-randomreads/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

@@ -54,6 +54,8 @@ This recipe builds libRoadRunner in a container and runs the example below. It n
    sh run.sh
    ```
 
+![Terminal recording of the libRoadRunner example run](https://biosimhub.pages.dev/media/libroadrunner/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -78,6 +80,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `run_log.txt` | 77 B |
 | `steady_state.txt` | 33 B |
 | `timecourse.csv` | 2.3 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/libroadrunner/result-dark.png"><img src="https://biosimhub.pages.dev/media/libroadrunner/result.png" alt="Plot of the libRoadRunner example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>run_log.txt</code></summary>
 

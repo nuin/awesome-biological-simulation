@@ -48,6 +48,8 @@ This recipe builds PBSIM3 in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the PBSIM3 example run](https://biosimhub.pages.dev/media/pbsim3/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

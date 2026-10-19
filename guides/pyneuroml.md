@@ -67,6 +67,8 @@ This recipe builds NeuroML2 / pyNeuroML / LEMS in a container and runs the examp
    sh run.sh
    ```
 
+![Terminal recording of the NeuroML2 / pyNeuroML / LEMS example run](https://biosimhub.pages.dev/media/pyneuroml/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

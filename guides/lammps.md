@@ -6,6 +6,8 @@ Licence: GPL-2.0-only · [Source code](https://github.com/lammps/lammps)
 
 **[Run LAMMPS in your browser](https://biosimhub.pages.dev/run/lammps/index.html)**: Lennard-Jones molecular dynamics (fcc melt, NVE) with the LAMMPS engine compiled to WebAssembly. Nothing to install; the first visit downloads about 10 MB.
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/lammps/plugin-dark.png"><img src="https://biosimhub.pages.dev/media/lammps/plugin-light.png" alt="LAMMPS running in the browser" width="760"></picture>
+
 ## What it simulates
 
 LAMMPS integrates Newton's equations for particles that interact through a force field you choose in a text script. It handles atoms, polymers, coarse-grained beads and full biomolecules. The script sets units, builds a box, picks pair styles, chooses a time integrator (a "fix"), and calls `run`.
@@ -73,6 +75,8 @@ This recipe builds LAMMPS in a container and runs the example below. It needs [D
    cd lammps
    sh run.sh
    ```
+
+![Terminal recording of the LAMMPS example run](https://biosimhub.pages.dev/media/lammps/run.gif)
 
 <details><summary>What run.sh does</summary>
 

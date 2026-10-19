@@ -65,6 +65,8 @@ This recipe builds L-Py in a container and runs the example below. It needs [Doc
    sh run.sh
    ```
 
+![Terminal recording of the L-Py example run](https://biosimhub.pages.dev/media/l-py/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

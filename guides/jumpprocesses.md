@@ -78,6 +78,8 @@ This recipe builds JumpProcesses.jl in a container and runs the example below. I
    sh run.sh
    ```
 
+![Terminal recording of the JumpProcesses.jl example run](https://biosimhub.pages.dev/media/jumpprocesses/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -103,6 +105,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `final_sizes.csv` | 86 B |
 | `run_log.txt` | 96 B |
 | `trajectories.csv` | 9.4 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/jumpprocesses/result-dark.png"><img src="https://biosimhub.pages.dev/media/jumpprocesses/result.png" alt="Plot of the JumpProcesses.jl example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>final_sizes.csv</code></summary>
 

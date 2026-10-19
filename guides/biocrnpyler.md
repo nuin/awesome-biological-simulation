@@ -42,6 +42,8 @@ This recipe builds bioCRNpyler in a container and runs the example below. It nee
    sh run.sh
    ```
 
+![Terminal recording of the bioCRNpyler example run](https://biosimhub.pages.dev/media/biocrnpyler/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -68,6 +70,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `run_log.txt` | 101 B |
 | `summary.json` | 194 B |
 | `timecourse.csv` | 11.2 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/biocrnpyler/result-dark.png"><img src="https://biosimhub.pages.dev/media/biocrnpyler/result.png" alt="Plot of the bioCRNpyler example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>crn.txt</code></summary>
 

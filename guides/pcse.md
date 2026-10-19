@@ -66,6 +66,8 @@ This recipe builds PCSE (Python Crop Simulation Environment) in a container and 
    sh run.sh
    ```
 
+![Terminal recording of the PCSE (Python Crop Simulation Environment) example run](https://biosimhub.pages.dev/media/pcse/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -88,6 +90,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 |---|---:|
 | `daily.csv` | 43.1 KB |
 | `run_log.txt` | 172 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/pcse/result-dark.png"><img src="https://biosimhub.pages.dev/media/pcse/result.png" alt="Plot of the PCSE (Python Crop Simulation Environment) example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>daily.csv</code></summary>
 

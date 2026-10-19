@@ -65,6 +65,8 @@ This recipe builds Boquila in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the Boquila example run](https://biosimhub.pages.dev/media/boquila/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

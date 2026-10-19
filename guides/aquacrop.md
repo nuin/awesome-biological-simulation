@@ -72,6 +72,8 @@ This recipe builds AquaCrop in a container and runs the example below. It needs 
    sh run.sh
    ```
 
+![Terminal recording of the AquaCrop example run](https://biosimhub.pages.dev/media/aquacrop/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

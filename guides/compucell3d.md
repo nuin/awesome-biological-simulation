@@ -57,6 +57,8 @@ This recipe builds CompuCell3D in a container and runs the example below. It nee
    sh run.sh
    ```
 
+![Terminal recording of the CompuCell3D example run](https://biosimhub.pages.dev/media/compucell3d/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

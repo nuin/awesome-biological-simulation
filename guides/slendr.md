@@ -46,6 +46,8 @@ This recipe builds slendr in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the slendr example run](https://biosimhub.pages.dev/media/slendr/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

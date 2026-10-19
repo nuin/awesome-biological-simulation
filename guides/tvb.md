@@ -52,6 +52,8 @@ This recipe builds The Virtual Brain (TVB) in a container and runs the example b
    sh run.sh
    ```
 
+![Terminal recording of the The Virtual Brain (TVB) example run](https://biosimhub.pages.dev/media/tvb/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -76,6 +78,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `summary.csv` | 6.4 KB |
 | `timeseries.npz` | 640.3 KB |
 | `timeseries.png` | 93.5 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/tvb/result-dark.png"><img src="https://biosimhub.pages.dev/media/tvb/result.png" alt="Plot of the The Virtual Brain (TVB) example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>run_log.txt</code></summary>
 

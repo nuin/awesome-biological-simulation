@@ -46,6 +46,8 @@ This recipe builds odin in a container and runs the example below. It needs [Doc
    sh run.sh
    ```
 
+![Terminal recording of the odin example run](https://biosimhub.pages.dev/media/odin/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -69,6 +71,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `run_log.txt` | 125 B |
 | `summary.csv` | 141 B |
 | `trajectory.csv` | 5.5 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/odin/result-dark.png"><img src="https://biosimhub.pages.dev/media/odin/result.png" alt="Plot of the odin example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>run_log.txt</code></summary>
 

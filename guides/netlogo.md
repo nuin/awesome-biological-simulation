@@ -6,6 +6,8 @@ Licence: GPL-2.0-or-later (engine); models CC BY-NC-SA 3.0 · [Source code](http
 
 **[Run NetLogo Web in your browser](https://biosimhub.pages.dev/run/netlogo/index.html)**: Agent-based models from the NetLogo Models Library, run by NetLogo Web (Tortoise) embedded from netlogoweb.org, with a seeded run and population chart. Nothing to install; the first visit downloads about 1 MB.
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/netlogo/plugin-dark.png"><img src="https://biosimhub.pages.dev/media/netlogo/plugin-light.png" alt="NetLogo Web running in the browser" width="760"></picture>
+
 ## What it simulates
 
 NetLogo simulates agents that follow simple rules on a grid. Each agent (a turtle) has its own state, and the grid cells (patches) have state too. Population patterns come out of the rules. No equations are solved. You press `setup` to build the world and `go` to advance one tick at a time.

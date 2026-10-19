@@ -30,7 +30,13 @@ def cell(text):
     return str(text).replace("|", "\\|").replace("\n", " ")
 
 
-def example(s):
+def picture(m, alt):
+    """GitHub honours prefers-color-scheme inside <picture>."""
+    return (f'<picture><source media="(prefers-color-scheme: dark)" srcset="{SITE}{m["dark"]}">'
+            f'<img src="{SITE}{m["light"]}" alt="{alt}" width="760"></picture>')
+
+
+def example(s, media):
     out = ["## Run the tested example", ""]
     line = f"This recipe builds {s['title']} in a container and runs the example below. It needs [Docker](https://docs.docker.com/get-docker/) and nothing else."
     if s.get("expected"):
@@ -46,6 +52,8 @@ def example(s):
             f"1. Download [{s['id']}-recipe.tar.gz]({SITE}{s['archive']}) ({files}, run.sh).",
             "2. Unpack it and run the script:", "",
             "   ```sh", f"   tar -xzf {s['id']}-recipe.tar.gz", f"   cd {s['id']}", "   sh run.sh", "   ```", ""]
+    if media.get("gif"):
+        out += [f"![Terminal recording of the {s['title']} example run]({SITE}{media['gif']})", ""]
     if s.get("run"):
         out += ["<details><summary>What run.sh does</summary>", "", "```sh", s["run"], "```", "",
                 "Inputs are read from `in/` and results land in `out/`. Change the values after each option to run your own case; the parameter table lists them.",
@@ -55,6 +63,9 @@ def example(s):
         out += ["### Expected output", "", "| File | Size |", "|---|---:|"]
         out += [f"| `{cell(f['file'])}` | {size(f['bytes'])} |" for f in e["files"]]
         out += [""]
+        if media.get("plot"):
+            out += [picture(media["plot"], f"Plot of the {s['title']} example output"), "",
+                    "Drawn from the example's output files.", ""]
         for f in e["files"]:
             if f.get("head"):
                 out += [f"<details><summary>First lines of <code>{f['file']}</code></summary>", "", "```",
@@ -91,7 +102,9 @@ def convert(g, body):
         p = g["plugin"]
         head += [f"**[Run {p['title']} in your browser]({SITE}{p['href']})**: {p['summary']} "
                  f"Nothing to install; the first visit downloads about {round(p['download_kb'] / 1024)} MB.", ""]
-    ex = example(g["server"]) if g.get("server") else ""
+        if (g.get("media") or {}).get("plugin"):
+            head += [picture(g["media"]["plugin"], f"{p['title']} running in the browser"), ""]
+    ex = example(g["server"], g.get("media") or {}) if g.get("server") else ""
     if "<!-- example -->" in body:
         body = body.replace("<!-- example -->", ex, 1)
     elif ex:

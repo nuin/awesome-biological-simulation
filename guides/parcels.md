@@ -40,6 +40,8 @@ This recipe builds Parcels in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the Parcels example run](https://biosimhub.pages.dev/media/parcels/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -66,6 +68,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `summary.csv` | 211 B |
 | `trajectories.csv` | 311.4 KB |
 | `trajectories.parquet` | 137.6 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/parcels/result-dark.png"><img src="https://biosimhub.pages.dev/media/parcels/result.png" alt="Plot of the Parcels example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>run_log.txt</code></summary>
 

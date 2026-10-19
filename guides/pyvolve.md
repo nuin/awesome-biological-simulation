@@ -62,6 +62,8 @@ This recipe builds Pyvolve in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the Pyvolve example run](https://biosimhub.pages.dev/media/pyvolve/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

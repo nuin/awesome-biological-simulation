@@ -48,6 +48,8 @@ This recipe builds Bygul in a container and runs the example below. It needs [Do
    sh run.sh
    ```
 
+![Terminal recording of the Bygul example run](https://biosimhub.pages.dev/media/bygul/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -129,6 +131,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `sample2/reads/amplicon_8_contig1_2.fastq` | 10.7 KB |
 | `sample2/reads/merged_reads_1.fastq` | 85.9 KB |
 | `sample2/reads/merged_reads_2.fastq` | 85.9 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/bygul/result-dark.png"><img src="https://biosimhub.pages.dev/media/bygul/result.png" alt="Plot of the Bygul example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>bygul_log.txt</code></summary>
 

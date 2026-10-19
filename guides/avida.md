@@ -54,6 +54,8 @@ This recipe builds Avida in a container and runs the example below. It needs [Do
    sh run.sh
    ```
 
+![Terminal recording of the Avida example run](https://biosimhub.pages.dev/media/avida/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -79,6 +81,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `run_log.txt` | 242 B |
 | `tasks.csv` | 886 B |
 | `time.csv` | 850 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/avida/result-dark.png"><img src="https://biosimhub.pages.dev/media/avida/result.png" alt="Plot of the Avida example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>average.csv</code></summary>
 
