@@ -77,6 +77,8 @@ This recipe builds biorbd in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the biorbd example run](https://biosimhub.pages.dev/media/biorbd/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -101,6 +103,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `run_log.txt` | 58 B |
 | `summary.json` | 253 B |
 | `trajectory.csv` | 32.2 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/biorbd/result-dark.png"><img src="https://biosimhub.pages.dev/media/biorbd/result.png" alt="Plot of the biorbd example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>markers_final.csv</code></summary>
 

@@ -59,6 +59,8 @@ This recipe builds BindsNET in a container and runs the example below. It needs 
    sh run.sh
    ```
 
+![Terminal recording of the BindsNET example run](https://biosimhub.pages.dev/media/bindsnet/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -85,6 +87,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `run_log.txt` | 0 B |
 | `summary.txt` | 107 B |
 | `voltage_neuron0.csv` | 11.1 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/bindsnet/result-dark.png"><img src="https://biosimhub.pages.dev/media/bindsnet/result.png" alt="Plot of the BindsNET example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>output_spikes.csv</code></summary>
 

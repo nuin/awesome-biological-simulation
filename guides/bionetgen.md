@@ -53,6 +53,8 @@ This recipe builds BioNetGen in a container and runs the example below. It needs
    sh run.sh
    ```
 
+![Terminal recording of the BioNetGen example run](https://biosimhub.pages.dev/media/bionetgen/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

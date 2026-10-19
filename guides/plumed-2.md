@@ -59,6 +59,8 @@ This recipe builds PLUMED 2 in a container and runs the example below. It needs 
    sh run.sh
    ```
 
+![Terminal recording of the PLUMED 2 example run](https://biosimhub.pages.dev/media/plumed-2/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

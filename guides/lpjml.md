@@ -68,6 +68,8 @@ This recipe builds LPJmL in a container and runs the example below. It needs [Do
    sh run.sh
    ```
 
+![Terminal recording of the LPJmL example run](https://biosimhub.pages.dev/media/lpjml/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -254,6 +256,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `lpjml_config_spinup.json` | 238.2 KB |
 | `lpjml_stdout.txt` | 0 B |
 | `spinup.log` | 468.6 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/lpjml/result-dark.png"><img src="https://biosimhub.pages.dev/media/lpjml/result.png" alt="Plot of the LPJmL example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>globalflux_spinup.csv</code></summary>
 

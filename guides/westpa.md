@@ -43,6 +43,8 @@ This recipe builds WESTPA in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the WESTPA example run](https://biosimhub.pages.dev/media/westpa/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -72,6 +74,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `west.h5` | 594.4 KB |
 | `westpa_stdout.txt` | 2.5 KB |
 | `wsystem.py` | 3.2 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/westpa/result-dark.png"><img src="https://biosimhub.pages.dev/media/westpa/result.png" alt="Plot of the WESTPA example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>bstates/bstates.txt</code></summary>
 

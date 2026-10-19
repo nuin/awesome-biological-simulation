@@ -64,6 +64,8 @@ This recipe builds SOFA Framework in a container and runs the example below. It 
    sh run.sh
    ```
 
+![Terminal recording of the SOFA Framework example run](https://biosimhub.pages.dev/media/sofa-framework/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -86,6 +88,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 |---|---:|
 | `run_log.txt` | 1.0 KB |
 | `trajectory.csv` | 94.7 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/sofa-framework/result-dark.png"><img src="https://biosimhub.pages.dev/media/sofa-framework/result.png" alt="Plot of the SOFA Framework example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>run_log.txt</code></summary>
 

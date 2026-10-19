@@ -64,6 +64,8 @@ This recipe builds gargammel in a container and runs the example below. It needs
    sh run.sh
    ```
 
+![Terminal recording of the gargammel example run](https://biosimhub.pages.dev/media/gargammel/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

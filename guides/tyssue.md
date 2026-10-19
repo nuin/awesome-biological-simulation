@@ -72,6 +72,8 @@ This recipe builds tyssue in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the tyssue example run](https://biosimhub.pages.dev/media/tyssue/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -97,6 +99,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `tissue.png` | 40.5 KB |
 | `tyssue_log.txt` | 184 B |
 | `vertices.csv` | 1.6 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/tyssue/result-dark.png"><img src="https://biosimhub.pages.dev/media/tyssue/result.png" alt="Plot of the tyssue example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>faces.csv</code></summary>
 

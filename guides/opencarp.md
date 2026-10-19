@@ -53,6 +53,8 @@ This recipe builds openCARP (single-cell bench) in a container and runs the exam
    sh run.sh
    ```
 
+![Terminal recording of the openCARP (single-cell bench) example run](https://biosimhub.pages.dev/media/opencarp/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

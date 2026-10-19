@@ -60,6 +60,8 @@ This recipe builds Molly.jl in a container and runs the example below. It needs 
    sh run.sh
    ```
 
+![Terminal recording of the Molly.jl example run](https://biosimhub.pages.dev/media/molly-jl/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -86,6 +88,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `molly_log.txt` | 212 B |
 | `rdf.csv` | 1.1 KB |
 | `trajectory.xyz` | 261.3 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/molly-jl/result-dark.png"><img src="https://biosimhub.pages.dev/media/molly-jl/result.png" alt="Plot of the Molly.jl example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>log.csv</code></summary>
 

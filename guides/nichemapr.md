@@ -56,6 +56,8 @@ This recipe builds NicheMapR in a container and runs the example below. It needs
    sh run.sh
    ```
 
+![Terminal recording of the NicheMapR example run](https://biosimhub.pages.dev/media/nichemapr/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -82,6 +84,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `microclimate.csv` | 28.6 KB |
 | `run_log.txt` | 101 B |
 | `summary.csv` | 621 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/nichemapr/result-dark.png"><img src="https://biosimhub.pages.dev/media/nichemapr/result.png" alt="Plot of the NicheMapR example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>ectotherm.csv</code></summary>
 

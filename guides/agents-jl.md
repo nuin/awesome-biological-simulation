@@ -42,6 +42,8 @@ This recipe builds Agents.jl in a container and runs the example below. It needs
    sh run.sh
    ```
 
+![Terminal recording of the Agents.jl example run](https://biosimhub.pages.dev/media/agents-jl/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -66,6 +68,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `grid.csv` | 9.5 KB |
 | `run_log.txt` | 92 B |
 | `steps.csv` | 242 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/agents-jl/result-dark.png"><img src="https://biosimhub.pages.dev/media/agents-jl/result.png" alt="Plot of the Agents.jl example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>grid.csv</code></summary>
 

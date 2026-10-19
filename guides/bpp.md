@@ -83,6 +83,8 @@ This recipe builds BPP simulator in a container and runs the example below. It n
    sh run.sh
    ```
 
+![Terminal recording of the BPP simulator example run](https://biosimhub.pages.dev/media/bpp/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

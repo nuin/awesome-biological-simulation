@@ -69,6 +69,8 @@ This recipe builds NEAT in a container and runs the example below. It needs [Doc
    sh run.sh
    ```
 
+![Terminal recording of the NEAT example run](https://biosimhub.pages.dev/media/neat/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

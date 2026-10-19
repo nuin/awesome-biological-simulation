@@ -6,6 +6,8 @@ Licence: GPL-3.0-or-later (developer's rights; UHN notice kept) · [Source code]
 
 **[Run SimProt in your browser](https://biosimhub.pages.dev/run/simprot/index.html)**: Protein sequence evolution with indels along a tree; writes the true alignment. Nothing to install; the first visit downloads about 0 MB.
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/simprot/plugin-dark.png"><img src="https://biosimhub.pages.dev/media/simprot/plugin-light.png" alt="SimProt running in the browser" width="760"></picture>
+
 ## What it simulates
 
 SimProt evolves protein sequences with indels down a tree and writes the true alignment. It starts from a random root sequence. On each branch it applies amino-acid substitutions from an empirical matrix (PAM, JTT or PMB) and insertion and deletion events. Branch lengths are expected substitutions per site.

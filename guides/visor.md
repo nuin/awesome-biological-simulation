@@ -62,6 +62,8 @@ This recipe builds VISOR in a container and runs the example below. It needs [Do
    sh run.sh
    ```
 
+![Terminal recording of the VISOR example run](https://biosimhub.pages.dev/media/visor/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

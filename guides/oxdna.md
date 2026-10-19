@@ -61,6 +61,8 @@ This recipe builds oxDNA in a container and runs the example below. It needs [Do
    sh run.sh
    ```
 
+![Terminal recording of the oxDNA example run](https://biosimhub.pages.dev/media/oxdna/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

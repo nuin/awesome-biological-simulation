@@ -66,6 +66,8 @@ This recipe builds ReaDDy in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the ReaDDy example run](https://biosimhub.pages.dev/media/readdy/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -90,6 +92,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 |---|---:|
 | `particle_counts.csv` | 4.0 KB |
 | `readdy_log.txt` | 3.4 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/readdy/result-dark.png"><img src="https://biosimhub.pages.dev/media/readdy/result.png" alt="Plot of the ReaDDy example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>particle_counts.csv</code></summary>
 

@@ -53,6 +53,8 @@ This recipe builds vcfsim in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the vcfsim example run](https://biosimhub.pages.dev/media/vcfsim/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

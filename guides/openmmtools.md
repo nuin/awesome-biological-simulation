@@ -59,6 +59,8 @@ This recipe builds openmmtools in a container and runs the example below. It nee
    sh run.sh
    ```
 
+![Terminal recording of the openmmtools example run](https://biosimhub.pages.dev/media/openmmtools/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -86,6 +88,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `replica_states.csv` | 411 B |
 | `run_log.txt` | 1.3 KB |
 | `summary.json` | 321 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/openmmtools/result-dark.png"><img src="https://biosimhub.pages.dev/media/openmmtools/result.png" alt="Plot of the openmmtools example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>energy_by_temperature.csv</code></summary>
 

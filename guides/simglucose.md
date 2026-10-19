@@ -72,6 +72,8 @@ This recipe builds simglucose in a container and runs the example below. It need
    sh run.sh
    ```
 
+![Terminal recording of the simglucose example run](https://biosimhub.pages.dev/media/simglucose/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -96,6 +98,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `adolescent#001.csv` | 58.3 KB |
 | `results.csv` | 58.3 KB |
 | `run_log.txt` | 302 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/simglucose/result-dark.png"><img src="https://biosimhub.pages.dev/media/simglucose/result.png" alt="Plot of the simglucose example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>adolescent#001.csv</code></summary>
 

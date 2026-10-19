@@ -48,6 +48,8 @@ This recipe builds biosim4 in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the biosim4 example run](https://biosimhub.pages.dev/media/biosim4/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

@@ -63,6 +63,8 @@ This recipe builds PReFerSim in a container and runs the example below. It needs
    sh run.sh
    ```
 
+![Terminal recording of the PReFerSim example run](https://biosimhub.pages.dev/media/prefersim/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

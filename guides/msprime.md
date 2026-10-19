@@ -6,6 +6,8 @@ Licence: GPL-3.0-or-later · [Source code](https://github.com/tskit-dev/msprime)
 
 **[Run msprime in your browser](https://biosimhub.pages.dev/run/msprime/index.html)**: Coalescent simulation with recombination, mutation and simple demography; reports diversity, Tajima's D, the site frequency spectrum and the first marginal tree. Nothing to install; the first visit downloads about 17 MB.
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/msprime/plugin-dark.png"><img src="https://biosimhub.pages.dev/media/msprime/plugin-light.png" alt="msprime running in the browser" width="760"></picture>
+
 ## What it simulates
 
 msprime simulates the ancestry of a sample of genomes backwards in time under the coalescent with recombination. It then drops mutations on the resulting genealogy. The output is a tree sequence: one genealogical tree per stretch of genome between recombination breakpoints.
@@ -77,6 +79,8 @@ This recipe builds msprime in a container and runs the example below. It needs [
    cd msprime
    sh run.sh
    ```
+
+![Terminal recording of the msprime example run](https://biosimhub.pages.dev/media/msprime/run.gif)
 
 <details><summary>What run.sh does</summary>
 

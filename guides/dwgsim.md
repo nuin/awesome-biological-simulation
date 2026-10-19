@@ -64,6 +64,8 @@ This recipe builds DWGSIM in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the DWGSIM example run](https://biosimhub.pages.dev/media/dwgsim/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

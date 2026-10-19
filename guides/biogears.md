@@ -63,6 +63,8 @@ This recipe builds BioGears in a container and runs the example below. It needs 
    sh run.sh
    ```
 
+![Terminal recording of the BioGears example run](https://biosimhub.pages.dev/media/biogears/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

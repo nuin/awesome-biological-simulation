@@ -73,6 +73,8 @@ This recipe builds GillesPy2 in a container and runs the example below. It needs
    sh run.sh
    ```
 
+![Terminal recording of the GillesPy2 example run](https://biosimhub.pages.dev/media/gillespy2/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -97,6 +99,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `mean.csv` | 6.0 KB |
 | `run_log.txt` | 57 B |
 | `trajectories.csv` | 13.2 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/gillespy2/result-dark.png"><img src="https://biosimhub.pages.dev/media/gillespy2/result.png" alt="Plot of the GillesPy2 example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>mean.csv</code></summary>
 

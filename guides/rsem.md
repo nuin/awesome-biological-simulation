@@ -70,6 +70,8 @@ This recipe builds RSEM (rsem-simulate-reads) in a container and runs the exampl
    sh run.sh
    ```
 
+![Terminal recording of the RSEM (rsem-simulate-reads) example run](https://biosimhub.pages.dev/media/rsem/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

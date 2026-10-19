@@ -58,6 +58,8 @@ This recipe builds OpenMM in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the OpenMM example run](https://biosimhub.pages.dev/media/openmm/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -83,6 +85,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `md_log.csv` | 955 B |
 | `openmm_stdout.txt` | 489 B |
 | `trajectory.dcd` | 91.8 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/openmm/result-dark.png"><img src="https://biosimhub.pages.dev/media/openmm/result.png" alt="Plot of the OpenMM example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>final.pdb</code></summary>
 

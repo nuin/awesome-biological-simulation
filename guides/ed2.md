@@ -45,6 +45,8 @@ This recipe builds ED2 (Ecosystem Demography) in a container and runs the exampl
    sh run.sh
    ```
 
+![Terminal recording of the ED2 (Ecosystem Demography) example run](https://biosimhub.pages.dev/media/ed2/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -68,6 +70,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `ed2.log` | 12.1 KB |
 | `monthly.csv` | 642 B |
 | `run_log.txt` | 159 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/ed2/result-dark.png"><img src="https://biosimhub.pages.dev/media/ed2/result.png" alt="Plot of the ED2 (Ecosystem Demography) example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>ed2.log</code></summary>
 

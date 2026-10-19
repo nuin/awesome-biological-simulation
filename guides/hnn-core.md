@@ -51,6 +51,8 @@ This recipe builds HNN-core in a container and runs the example below. It needs 
    sh run.sh
    ```
 
+![Terminal recording of the HNN-core example run](https://biosimhub.pages.dev/media/hnn-core/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -73,6 +75,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `dipole.csv` | 39.1 KB |
 | `run_log.txt` | 373 B |
 | `spikes.csv` | 6.9 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/hnn-core/result-dark.png"><img src="https://biosimhub.pages.dev/media/hnn-core/result.png" alt="Plot of the HNN-core example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>dipole.csv</code></summary>
 

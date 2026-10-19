@@ -49,6 +49,8 @@ This recipe builds LightDock in a container and runs the example below. It needs
    sh run.sh
    ```
 
+![Terminal recording of the LightDock example run](https://biosimhub.pages.dev/media/lightdock/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

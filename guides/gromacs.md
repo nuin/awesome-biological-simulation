@@ -51,6 +51,8 @@ This recipe builds GROMACS in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the GROMACS example run](https://biosimhub.pages.dev/media/gromacs/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

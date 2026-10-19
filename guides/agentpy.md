@@ -41,6 +41,8 @@ This recipe builds AgentPy in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the AgentPy example run](https://biosimhub.pages.dev/media/agentpy/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -65,6 +67,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `run_log.txt` | 87 B |
 | `sir.csv` | 1.0 KB |
 | `summary.csv` | 95 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/agentpy/result-dark.png"><img src="https://biosimhub.pages.dev/media/agentpy/result.png" alt="Plot of the AgentPy example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>run_log.txt</code></summary>
 

@@ -66,6 +66,8 @@ This recipe builds MyoSuite in a container and runs the example below. It needs 
    sh run.sh
    ```
 
+![Terminal recording of the MyoSuite example run](https://biosimhub.pages.dev/media/myosuite/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -88,6 +90,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 |---|---:|
 | `rollout.csv` | 39.7 KB |
 | `run_log.txt` | 117 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/myosuite/result-dark.png"><img src="https://biosimhub.pages.dev/media/myosuite/result.png" alt="Plot of the MyoSuite example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>rollout.csv</code></summary>
 

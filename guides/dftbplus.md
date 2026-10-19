@@ -49,6 +49,8 @@ This recipe builds DFTB+ in a container and runs the example below. It needs [Do
    sh run.sh
    ```
 
+![Terminal recording of the DFTB+ example run](https://biosimhub.pages.dev/media/dftbplus/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

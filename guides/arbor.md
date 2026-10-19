@@ -45,6 +45,8 @@ This recipe builds Arbor in a container and runs the example below. It needs [Do
    sh run.sh
    ```
 
+![Terminal recording of the Arbor example run](https://biosimhub.pages.dev/media/arbor/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -69,6 +71,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `spikes.csv` | 35 B |
 | `voltage.csv` | 8.7 KB |
 | `voltage.png` | 15.5 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/arbor/result-dark.png"><img src="https://biosimhub.pages.dev/media/arbor/result.png" alt="Plot of the Arbor example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>run_log.txt</code></summary>
 

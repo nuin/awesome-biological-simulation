@@ -50,6 +50,8 @@ This recipe builds plant in a container and runs the example below. It needs [Do
    sh run.sh
    ```
 
+![Terminal recording of the plant example run](https://biosimhub.pages.dev/media/plant-traitecoevo/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -71,6 +73,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 |---|---:|
 | `patch_summary.csv` | 7.7 KB |
 | `run_log.txt` | 97 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/plant-traitecoevo/result-dark.png"><img src="https://biosimhub.pages.dev/media/plant-traitecoevo/result.png" alt="Plot of the plant example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>patch_summary.csv</code></summary>
 

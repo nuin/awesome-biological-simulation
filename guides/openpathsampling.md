@@ -85,6 +85,8 @@ This recipe builds OpenPathSampling in a container and runs the example below. I
    sh run.sh
    ```
 
+![Terminal recording of the OpenPathSampling example run](https://biosimhub.pages.dev/media/openpathsampling/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -110,6 +112,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `moves.csv` | 4.7 KB |
 | `run_log.txt` | 309 B |
 | `summary.json` | 269 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/openpathsampling/result-dark.png"><img src="https://biosimhub.pages.dev/media/openpathsampling/result.png" alt="Plot of the OpenPathSampling example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>final_path.csv</code></summary>
 

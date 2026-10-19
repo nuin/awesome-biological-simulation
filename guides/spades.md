@@ -43,6 +43,8 @@ This recipe builds SpaDES in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the SpaDES example run](https://biosimhub.pages.dev/media/spades/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -65,6 +67,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `final_age.csv` | 30.8 KB |
 | `fire_stats.csv` | 2.3 KB |
 | `run_log.txt` | 238 B |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/spades/result-dark.png"><img src="https://biosimhub.pages.dev/media/spades/result.png" alt="Plot of the SpaDES example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>final_age.csv</code></summary>
 

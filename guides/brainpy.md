@@ -44,6 +44,8 @@ This recipe builds BrainPy in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the BrainPy example run](https://biosimhub.pages.dev/media/brainpy/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -68,6 +70,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `rates.csv` | 75 B |
 | `run_log.txt` | 46 B |
 | `spikes.csv` | 47.3 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/brainpy/result-dark.png"><img src="https://biosimhub.pages.dev/media/brainpy/result.png" alt="Plot of the BrainPy example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>rates.csv</code></summary>
 

@@ -62,6 +62,8 @@ This recipe builds PyLEMS in a container and runs the example below. It needs [D
    sh run.sh
    ```
 
+![Terminal recording of the PyLEMS example run](https://biosimhub.pages.dev/media/pylems/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh

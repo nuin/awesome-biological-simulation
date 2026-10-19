@@ -45,6 +45,8 @@ This recipe builds TorchMD in a container and runs the example below. It needs [
    sh run.sh
    ```
 
+![Terminal recording of the TorchMD example run](https://biosimhub.pages.dev/media/torchmd/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -77,6 +79,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `run_log.txt` | 138 B |
 | `summary.json` | 211 B |
 | `torchmd_stdout.log` | 10.1 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/torchmd/result-dark.png"><img src="https://biosimhub.pages.dev/media/torchmd/result.png" alt="Plot of the TorchMD example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>conf.yaml</code></summary>
 

@@ -45,6 +45,8 @@ This recipe builds HOOMD-blue in a container and runs the example below. It need
    sh run.sh
    ```
 
+![Terminal recording of the HOOMD-blue example run](https://biosimhub.pages.dev/media/hoomd-blue/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
@@ -70,6 +72,10 @@ Inputs are read from `in/` and results land in `out/`. Change the values after e
 | `log.csv` | 6.3 KB |
 | `rdf.csv` | 1.6 KB |
 | `trajectory.gsd` | 146.6 KB |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://biosimhub.pages.dev/media/hoomd-blue/result-dark.png"><img src="https://biosimhub.pages.dev/media/hoomd-blue/result.png" alt="Plot of the HOOMD-blue example output" width="760"></picture>
+
+Drawn from the example's output files.
 
 <details><summary>First lines of <code>hoomd_log.txt</code></summary>
 

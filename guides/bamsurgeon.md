@@ -56,6 +56,8 @@ This recipe builds BAMSurgeon in a container and runs the example below. It need
    sh run.sh
    ```
 
+![Terminal recording of the BAMSurgeon example run](https://biosimhub.pages.dev/media/bamsurgeon/run.gif)
+
 <details><summary>What run.sh does</summary>
 
 ```sh
